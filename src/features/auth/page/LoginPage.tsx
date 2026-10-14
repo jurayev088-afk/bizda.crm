@@ -103,7 +103,7 @@ export default function LoginPage() {
                 ]}
               >
                 <Input
-                  defaultValue="admin@example.com"
+                  // defaultValue="admin@example.com"
                   size="large"
                   placeholder="Email kiriting"
                   prefix={<UserOutlined className="mr-1 text-muted" />}
@@ -119,7 +119,7 @@ export default function LoginPage() {
                 ]}
               >
                 <Input.Password
-                  defaultValue="Admin123!"
+                  // defaultValue="Admin123!"
                   size="large"
                   placeholder="Parolni kiriting"
                   prefix={<LockOutlined className="mr-1 text-muted" />}
